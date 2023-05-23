@@ -1,5 +1,7 @@
 :root {
   --black: hsl(0, 0, 0);
+  --white: hsl(0, 0%, 100%);
+  --green: rgb(179, 255, 64);
   --fontPrimary: "staatliches";
   --fontSecondary:"UnifrakturMaguntia";
 }
