@@ -1,11 +1,17 @@
 :root {
   --black: hsl(0, 0, 0);
-  --fontPrimary: "inter";
+  --fontPrimary: "staatliches";
+  --fontSecondary:"UnifrakturMaguntia";
 }
 
 @font-face {
-  font-family: "inter";
-  src: url("../assets/fonts/inter.ttf") format("truetype");
+  font-family: "staatliches";
+  src: url("../assets/fonts/Staatliches.ttf") format("truetype");
+}
+
+@font-face {
+  font-family:"UnifrakturMaguntia";
+  src: url("../assets/fonts/UnifrakturMaguntia.ttf") format("truetype");
 }
 
 body {

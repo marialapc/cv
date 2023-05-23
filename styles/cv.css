@@ -31,7 +31,8 @@ section {
 }
 .no-parallax-section {
   height: 50vh;
-  width: 80vw;
+  font-family: var(--fontSecondary);
+  color: var(--black);
 }
 .no-parallax-content {
   text-align: center;
