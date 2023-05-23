@@ -1,0 +1,13 @@
+:root {
+--black: hsl(0,0,0);
+  --fontPrimary:"inter";
+}
+@font-face {
+  font-family: "inter";
+  src: url("../assets/fonts/inter.ttf") format("truetype");
+}
+body{
+  background-color: var(--black);
+  font-size: 16px;
+  font-family: var(--fontPrimary);
+}
