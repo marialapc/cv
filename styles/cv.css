@@ -15,32 +15,36 @@ section {
   justify-content: center;
 }
 
-.parallax-bg{
+.parallax-bg {
   background-position: center center;
   transform: translateZ(-0.5px) scale(2);
   background-size: cover;
   z-index: -1;
   height: 50vh;
 }
-.parallax-content{
+.parallax-content {
   z-index: -1;
   transform: translateY(-25vh) translateZ(0px) scale(1);
-  padding-left:30px;
-  padding-right:30px;
-  text-align:center;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
 }
-.no-parallax-section{
+.no-parallax-section {
   height: 50vh;
   width: 80vw;
 }
-.no-parallax-content{
-  text-align:center;
-  padding:30px;
+.no-parallax-content {
+  text-align: center;
+  padding: 30px;
 }
 
-.bg-1{
-  background:rgb(179, 255, 64)
+.bg-1 {
+  background: rgb(179, 255, 64);
 }
-.bg-2{
-  background:linear-gradient(90deg, rgba(0,83,33,1) 0%, rgba(215,198,1,1) 100%);
+.bg-2 {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 83, 33, 1) 0%,
+    rgba(215, 198, 1, 1) 100%
+  );
 }
